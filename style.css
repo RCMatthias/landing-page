@@ -1,0 +1,175 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5px;
+    min-height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(224, 145, 145)
+}
+
+p {
+
+}
+
+ul {
+    list-style: none;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;  
+    display: flex;
+    gap: 32px;
+}
+
+
+/* HEADER */
+
+.header{
+    background: rgb(39, 0, 0);
+    color: aliceblue;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px  16px ;
+    margin: 4px;
+    border-radius: 25px;
+    gap: 48px;
+}
+
+.header-text{
+    align-self: center;
+    font-size: 24px;
+}
+.header-links{
+    font-size: 12px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+    align-self:auto;
+    flex:1;
+}
+
+
+/* blocks main body */
+
+/* .blocks{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    align-content: flex-end;
+
+} */ 
+
+
+/* Block 1 with 3 items*/
+
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 2em;
+    padding-bottom: 2em;
+    justify-content: center;
+    background: rgb(223, 223, 223);
+}
+
+.block1_items{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+.block1_card{
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    border-radius: 25px;
+    padding: 16px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    -webkit-filter: grayscale(50);
+}
+
+.block1_card:hover {
+    zoom: 104%;
+    transition: 2s;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.title{
+    align-self: center;
+}
+
+
+/* Block 2 with blockquote */
+
+.block2{
+    margin-top: 100px;
+    background: rgb(95, 95, 95);
+    border-radius: 5px;
+    padding: 2em;
+    color: #eee;
+    display: flex;
+    direction: column;
+    align-items: center;
+}
+
+
+/* Block3 Call to action block */
+
+.block3{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.button{
+    border: none;
+    color: maroon;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px;
+    cursor: crosshair; 
+    border-radius: 25px;
+}
+
+/* Footer */
+
+.footer{
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
